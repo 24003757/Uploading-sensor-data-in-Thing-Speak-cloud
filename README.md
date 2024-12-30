@@ -76,14 +76,14 @@ Automatically act on your data and communicate using third-party services like T
 #include <WiFi.h>
 #include "DHT.h"
 
-char ssid[]="Sona's A35";
-char pass[]="Sona@1011";
+char ssid[]="Galaxy F55";
+char pass[]="vinolia12345";
 
 const int t=25;
 WiFiClient client;
 DHT dht(25, DHT11);
 
-unsigned long myChannelField = 2759181;
+unsigned long myChannelField = 2797233;
 const int ChannelField1 = 1 ; 
 const int ChannelField2 = 2 ;
 const char *myWriteAPIKey="E9U6UMA0U1WYL76I";
